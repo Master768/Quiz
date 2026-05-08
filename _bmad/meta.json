@@ -1,0 +1,11 @@
+{
+  "project_name": "Premium Quiz Platform",
+  "methodology": "BMAD Method v1.0",
+  "config": {
+    "theme": "dark-blue-white",
+    "excel_headers": ["Question", "Option A", "Option B", "Option C", "Option D", "Answer", "POINT"],
+    "persistence": "session"
+  },
+  "modules": ["BMM", "BMB", "CIS"],
+  "status": "initialization"
+}

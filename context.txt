@@ -1,0 +1,159 @@
+Create a modern, production-ready quiz web application using the Excel sheet I provide as the database source.
+
+The Excel sheet contains:
+- Question text
+- Multiple choice options
+- Correct answer
+- Points/marks for each question
+
+Your task is to build a fully functional, visually stunning, responsive quiz platform with premium UI/UX design.
+
+==================================================
+IMPORTANT QUIZ BEHAVIOR
+==================================================
+
+- ALL questions must appear on a SINGLE PAGE.
+- Do NOT create one-question-per-page navigation.
+- Users should be able to scroll through all questions smoothly.
+
+When a user selects an option:
+- Instantly validate the answer in real time.
+- If the selected answer is CORRECT:
+  • Highlight the option in GREEN
+  • Show a smooth success animation
+  • Display “Correct Answer” feedback
+
+- If the selected answer is WRONG:
+  • Highlight the selected option in RED
+  • Automatically highlight the correct answer in GREEN
+  • Display “Wrong Answer” feedback
+
+- Disable changing answers after selection (optional toggle).
+- Add smooth animations and transitions for answer feedback.
+- Provide satisfying interaction effects similar to premium quiz apps.
+
+==================================================
+CORE FEATURES
+==================================================
+
+1. Excel Upload & Parsing
+- Allow admin/user to upload .xlsx or .csv files
+- Automatically parse:
+  • Question
+  • Options
+  • Correct answer
+  • Points
+- Store parsed data in structured JSON format
+- Handle errors gracefully for missing columns or invalid formats
+
+2. Quiz Interface
+- Display all questions vertically in a beautiful scrollable layout
+- Each question inside premium card components
+- Sticky progress tracker at top
+- Smooth scrolling navigation
+- Animated option selection states
+- Real-time answer validation
+- Instant feedback system
+- Auto score calculation
+
+3. Scoring System
+- Calculate score instantly
+- Track:
+  • Correct answers
+  • Wrong answers
+  • Total score
+  • Percentage
+- Live score updates while answering
+
+4. Results Section
+- Final performance dashboard
+- Circular progress charts
+- Correct vs wrong analytics
+- Motivational feedback
+- Review answers section
+
+==================================================
+UI / UX REQUIREMENTS
+==================================================
+
+- Extremely polished modern design
+- Premium EdTech app aesthetics
+- Glassmorphism cards
+- Soft shadows
+- Beautiful gradients
+- Modern typography
+- Smooth hover animations
+- Fluid transitions
+- Responsive on all devices
+- Dark mode + light mode
+- Emotionally engaging interactions
+
+==================================================
+QUESTION CARD DESIGN
+==================================================
+
+Each question card should include:
+- Question number
+- Points badge
+- Question text
+- 4 beautifully designed option buttons
+- Instant feedback message
+- Correct answer indicator
+- Smooth animated borders/glows
+
+Correct Answer Style:
+- Green background
+- Glow effect
+- Tick/check icon
+
+Wrong Answer Style:
+- Red background
+- Shake animation
+- Cross icon
+
+==================================================
+ADVANCED FEATURES
+==================================================
+
+Include:
+- Shuffle questions
+- Shuffle options
+- Category support
+- Difficulty labels
+- Bookmark questions
+- Search questions
+- Filter by category
+- Fullscreen mode
+- Sound effects toggle
+- Leaderboard
+- User authentication
+- Quiz history
+- Review mode
+
+==================================================
+TECH STACK
+==================================================
+
+Preferred stack:
+- React / Next.js
+- Tailwind CSS
+- Framer Motion
+- Recharts
+- Lucide React
+- Firebase / Supabase
+- SheetJS (xlsx)
+
+==================================================
+OUTPUT EXPECTATION
+==================================================
+
+Generate:
+- Clean scalable folder structure
+- Production-ready code
+- Modular reusable components
+- Beautiful landing page
+- Quiz page
+- Result dashboard
+- Admin dashboard
+
+The final product should feel like a premium real-world interactive quiz platform with addictive UI/UX and smooth real-time answer validation.
